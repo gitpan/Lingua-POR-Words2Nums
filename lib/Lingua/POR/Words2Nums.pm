@@ -1,7 +1,7 @@
 # For Emacs: -*- mode:cperl; mode:folding; coding:utf-8; -*-
 
 package Lingua::POR::Words2Nums;
-# ABSTRACT: Words2Nums converts Portuguese words to numbers (works with numbers ranging from 0 to 999.999.999.999.999.999).
+# ABSTRACT: Word 2 number conversion in POR.
 
 # {{{ use block
 
@@ -14,8 +14,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 
 my (%values,@values,%bigvalues,@bigvalues);
 
@@ -144,7 +143,7 @@ Lingua::POR::Words2Nums - Converts Portuguese words to numbers
 
 =head1 VERSION
 
-version 0.044
+version 0.0577
 
 =head1 SYNOPSIS
 
@@ -154,6 +153,8 @@ version 0.044
   # $result now holds 5
 
 =head1 DESCRIPTION
+
+Word 2 number conversion in POR.
 
 Words2Nums converts Portuguese words to numbers (works with numbers
 ranging from 0 to 999.999.999.999.999.999).

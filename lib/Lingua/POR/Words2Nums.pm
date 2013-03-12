@@ -5,7 +5,8 @@ package Lingua::POR::Words2Nums;
 
 # {{{ use block
 
-use 5.006;
+use 5.10.1;
+
 use strict;
 use warnings;
 
@@ -14,7 +15,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-our $VERSION = 0.0577;
+our $VERSION = 0.0682;
 
 my (%values,@values,%bigvalues,@bigvalues);
 
@@ -143,7 +144,7 @@ Lingua::POR::Words2Nums - Converts Portuguese words to numbers
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 =head1 SYNOPSIS
 
